@@ -1,3 +1,5 @@
 body{
-    background-color: goldenrod;
+    background-color: #011528;
+    background-image: url("assets/outplug-background.png");
+    color: white;
 }
