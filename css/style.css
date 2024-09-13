@@ -1,0 +1,17 @@
+:root{
+    --clr-dark: #141414;
+    --clr-light: #f5f5f5;
+    --clr-acc1: #003152;
+    --clr-acc2: #0080ff;
+}
+
+section{
+    padding: 60px 0;
+}
+
+#featuredImage{
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: .5px;
+    box-shadow: 8px 8px 12px var(--clr-dark);
+}
