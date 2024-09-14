@@ -12,6 +12,7 @@ section{
 #featuredImage{
     border-radius: 1vw;
     border-style: solid;
+    border-color: lightgrey;
     border-width: .5px;
-    box-shadow: 8px 8px 12px var(--clr-dark);
+    box-shadow: 5px 5px 10px grey;
 }
