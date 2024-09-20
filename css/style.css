@@ -9,10 +9,18 @@ section{
     padding: 60px 0;
 }
 
-#featuredImage{
+#featured-image{
     border-radius: 1vw;
     border-style: solid;
     border-color: lightgrey;
     border-width: .5px;
     box-shadow: 5px 5px 10px grey;
+}
+
+#footer-image{
+    max-width: 50%;
+}
+
+#footer-image-small{
+    max-width: 100%;
 }
