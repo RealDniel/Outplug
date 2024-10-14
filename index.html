@@ -164,14 +164,14 @@
             <!--Contact Form-->
             <div class="row m-4 justify-content-center">
                 <div class="col-lg-6">
-                    <form action="">
+                    <form action="https://formspree.io/f/mqkvvzel" method="POST">
                         <!--Name-->
                         <label for="full-name" class="form-label">Name:</label>
                         <div class="mb-4 input-group">
                             <span class="input-group-text">
                                 <i class="bi bi-person-fill"></i>
                             </span>
-                            <input type="text" id="full-name" placeholder="e.g. John Smith" class="form-control">
+                            <input name="Full Name" type="text" id="full-name" placeholder="e.g. John Smith" class="form-control">
                         </div>
 
                         <!--Email-->
@@ -180,7 +180,7 @@
                             <span class="input-group-text">
                                 <i class="bi bi-envelope-fill"></i>
                             </span>
-                            <input type="email" id="email" placeholder="e.g. johnsmith123@email.com" class="form-control">
+                            <input name="Email Address" type="email" id="email" placeholder="e.g. johnsmith123@email.com" class="form-control">
                         </div>
                         
 
@@ -190,7 +190,7 @@
                             <span class="input-group-text">
                                 <i class="bi bi-cash-stack"></i>
                             </span>
-                            <select id="pricing" class="form-select">
+                            <select name="Pricing interest" id="pricing" class="form-select">
                                 <option value="select" selected>Select...</option>
                                 <option value="Budget">Budget</option>
                                 <option value="Standard">Standard</option>
@@ -203,7 +203,7 @@
                         <!--Message-->
                         <label for="message" class="form-label">Message:</label>
                         <div class="mb-4 input-group">
-                            <textarea id="message" type="text" class="form-control" style="height: 140px" placeholder="Type here.."></textarea>
+                            <textarea name="Message" id="message" type="text" class="form-control" style="height: 140px" placeholder="Type here.."></textarea>
                         </div>
                         
                         <!--Submit Button-->
