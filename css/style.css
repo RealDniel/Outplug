@@ -3,6 +3,7 @@
     --clr-light: #f5f5f5;
     --clr-acc1: #003152;
     --clr-acc2: #0080ff;
+    --clr-foot: #ffffff;
 }
 
 section{
@@ -23,4 +24,9 @@ section{
 
 #footer-image-small{
     max-width: 100%;
+}
+
+.footer-font{
+    color: var(--clr-foot);
+    text-decoration: none;
 }
